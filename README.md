@@ -15,6 +15,7 @@ https://www.ruby-lang.org/ja/downloads/
 ```
 FROM ruby:3.2.2
 
+RUN gem install rails
 USER root
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
 RUN mkdir /myapp
