@@ -77,6 +77,9 @@ services:
 ```
 ### プロジェクトをビルドする
 ```
+docker-compose run web bundle install 
+```
+```
 docker-compose run --no-deps web rails new . --force --database=postgresql --skip-webpack-install
 ```
 ### 再ビルド
