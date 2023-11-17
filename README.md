@@ -114,14 +114,15 @@ production:
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
 
 ```
-### データベースの生成
-```
-docker-compose run web rake db:create
-```
 
 ### 起動
 ```
 docker-compose up
+```
+
+### データベースの生成
+```
+docker-compose run web rake db:create
 ```
 
 ### webページにアクセス
