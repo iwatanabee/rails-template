@@ -139,6 +139,17 @@ https://devcenter.heroku.com/ja/articles/getting-started-with-rails6
 ```
 docker-compose down && docker-compose build && docker-compose up -d
 ```
+### 再起動
+```
+docker-compose restart
+```
+
+## エラー集
+## Run `bundle install` to install missing gems.
+インストールしたのになぜかgemがない→再ビルドしましょう
+bundle install のところでビルドが止まる場合は、DockerのClear/Purge data を押して再度ビルドしましょう
+![image](https://github.com/iwatanabee/rails-template/assets/83575309/fa96bce3-023b-4ee6-96a5-176015fa7a04)
+
 
 
 
