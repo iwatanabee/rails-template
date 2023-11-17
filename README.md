@@ -126,6 +126,10 @@ docker-compose run web rake db:create
 http://localhost:3000)http://localhost:3000
 
 
+## Heroku にデプロイ
+
+https://devcenter.heroku.com/ja/articles/getting-started-with-rails6
+
 ## おまけ
 ### 再ビルド
 ```
