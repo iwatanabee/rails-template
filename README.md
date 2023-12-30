@@ -157,5 +157,15 @@ bundle install のところでビルドが止まる場合は、DockerのClear/Pu
 ![image](https://github.com/iwatanabee/rails-template/assets/83575309/fa96bce3-023b-4ee6-96a5-176015fa7a04)
 
 
+## git
+## git push した後に、コミットを消したいとき
+きれいにしたい場合は以下のコマンドを打つ
+```
+git reset --hard コミットID
+```
+
+```
+git push -f origin main
+```
 
 
