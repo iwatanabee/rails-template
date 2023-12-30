@@ -144,6 +144,12 @@ docker-compose down && docker-compose build && docker-compose up -d
 docker-compose restart
 ```
 
+## 実行コマンドの仕方
+dockerの中でrails コマンドを打つ
+```
+docker-compose run web bundle add devise
+```
+
 ## エラー集
 ## Run `bundle install` to install missing gems.
 インストールしたのになぜかgemがない→再ビルドしましょう
