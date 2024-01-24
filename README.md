@@ -153,7 +153,9 @@ rspecなどでtestを回したいとき
 ```
 docker-compose exec web bundle exec rspec
 ```
-
+### docker run exec の違い
+run 新しくコンテナを立ち上げて、実行<br>
+exec 起動中のコンテナでコマンドを実行
 ## エラー集
 ## Run `bundle install` to install missing gems.
 インストールしたのになぜかgemがない→再ビルドしましょう
