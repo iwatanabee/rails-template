@@ -149,6 +149,10 @@ dockerの中でrails コマンドを打つ
 ```
 docker-compose run web bundle add devise
 ```
+rspecなどでtestを回したいとき
+```
+docker-compose exec web bundle exec rspec
+```
 
 ## エラー集
 ## Run `bundle install` to install missing gems.
