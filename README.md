@@ -1,4 +1,4 @@
-# Docker rails postgreswl で環境構築
+# Docker rails postgresql で環境構築
 
 環境　windows
 
