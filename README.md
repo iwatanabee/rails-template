@@ -1,6 +1,6 @@
 # Docker rails postgresql で環境構築
 
-環境　windows
+環境　windows macどっちも可能
 
 ## 手順
 基本的に、この手順通りに作業していく
